@@ -1,22 +1,5 @@
 import inspect
 
-# BigQuery link:
-# https://console.cloud.google.com/bigquery?project=audiribtdb&folder&organizationId=1031994936391
-# Storage for generated files:
-# https://console.cloud.google.com/storage/browser/audiribtdb.appspot.com?project=audiribtdb
-
-'''
-Run a query
-Click on Job Information above results
-Click on Temporary Table link
-Far right -> Click on Export -> Export to GCS
-Browse/paste bucket: audiribtdb.appspot.com/WorldTemps.csv.gzip
-Compression: gzip -> Export
-Go to storage link above:
-3 dot menu far right -> Download
-
-'''
-
 queryAllwban = ''
 queryAllstn = ''
 #Get list of wban numbers
