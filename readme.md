@@ -5,11 +5,18 @@ After hearing about new temperature records being set now and again, I got curio
 The AnalysisPub notebook file renders here:
 [https://nbviewer.jupyter.org/github/legolego/WeatherRecords/blob/master/AnalysisPub.ipynb](https://nbviewer.jupyter.org/github/legolego/WeatherRecords/blob/master/AnalysisPub.ipynb)
 
-## TL;DR
+This basically does follow that pattern that I expected, with lots of records at first, since they were easy to 'set'. Later on the number of records set falls, but there are more high temperature records set than low temperature records.
 
+## TODO:
+
+The next step would be to try this with data that goes back further.
+
+
+## TL;DR
+This chart shows the number of record highs and lows relative to each other, per year.
 ![Line plot of high and low records set per year](TemperatureRecords01.png)
 
-
+This chart shows how many more times there are of one record vs the other.
 ![Ratios of high vs low records set per year](TemperatureRecords02.png)
 
 ## Contributing
